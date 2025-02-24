@@ -1,0 +1,24 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background: #EE6C4E;
+    color:black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_left{
+    width: 50%;
+    height: auto;
+  
+}
+
+.header_right{
+    width: 50%;
+    height: auto;
+    
+    text-align: right;
+}
