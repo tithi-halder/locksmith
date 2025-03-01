@@ -99,3 +99,22 @@ body{
     font-family: arial;
     text-align: center;
 }
+.about{
+    display: flex;
+    padding: 50px;
+    background: white;
+    width: 100%;
+    height: auto;
+}
+.left{
+    padding: 100px 100px;
+}
+.left h1{
+    font-size: 50px;
+}
+.left p{
+    font-size: 18px;
+}
+.right{
+    padding: 100px;
+}
