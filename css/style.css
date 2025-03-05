@@ -1,5 +1,7 @@
 body{
     font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
 }
 .header{
     width: 100%;
@@ -157,6 +159,102 @@ body{
     font-family: arial; 
 }
 .a img{
-    padding-left: 175px;
+    padding-left: 175px; 
+}
+.best{
+    display: flex;
+    padding: 175px;
+}
+.best_left{
+    padding-right: 80px;
+}
+.best_left p{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.best_left h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: arial;
+}
+.best_mid{
+    padding-right: 80px;
+}
+.best_mid h1{
+    font-weight: bold;
+    font-family: arial;
+}
+.best_mid p{
+    font-family: arial;
+    opacity: 0.6;
+}
+.best_right h1{
+   font-weight: bold;
+   font-family: arial;
+}
+.best_right p{
+    font-family: arial;
+    opacity: 0.6;
+}
+.custom{
+   display: flex;
+   background:rgb(66, 70, 83);
+   padding-top: 50px;
+}
+.custom_left{
+    
+    width: 50%;
+    height: 600px;
+}
+.custom_right{
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+}
+.custom_div{
+    width: 53%;
+    height: 388px;
+    background: tomato;
+    color: white;
+    padding: 10px;
+    margin-top: -13%;
+    margin-left: 31%;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.custom_div h1{
+    font-size: 120px;
+    margin:0px
+}
+
+.custom_div p{
+    font-size: 30px;
+    margin-top: 28.7%;
+    font-family: fantasy;
+}
+
+.custom_text{
+    margin-top: 20.5%;
+    color: #ffffff;
+}
+
+.custom_text h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: none;
+}
+
+.custom_text p{
+    font-size: 17px;
+    text-align: justify;
+    font-family: cursive;
     
 }
+
+.custom_text img{
+    border-radius: 55%;
+}
+
