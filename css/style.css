@@ -276,7 +276,49 @@ body{
     padding-bottom: 100px;
 }
 .form_left{
+    width: 40%;
     padding-right: 75px;
+}
+.form_left0{
+    display: flex
+;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: baseline;
+}
+.form_right{
+    width: 60%;
+    padding-right: 75px;
+}
+.fname{
+    width: 50%;
+    height: 34px;
+}
+.lname{
+    width: 50%;
+    height: 34px;
+}
+.email{
+    width: 100%;
+    height: 34px;
+}
+.message{
+    width: 100%;
+    height: 100px;
+}
+.form_right button{
+    width: 20%;
+    height: 30px;
+    background: tomato;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: monospace;
+}
+.fullname{
+    display: flex;
+    justify-content: space-between;
 }
 .aria{
     display: flex;
@@ -338,4 +380,37 @@ body{
     font-family: sans-serif;
     opacity: 0.4
 }
+.mapouter{position:relative;
+    text-align:right;
+    width:100%;height:400px;
+    padding: 5px;
+    margin: 5px;
+}
+.gmap_canvas {overflow:hidden;
+            background:none!important;
+                width:100%;
+                height:400px;}
+.gmap_iframe {width:100%!important;
+                height:400px!important;}
+.footer{
+    display: flex;
+}
+.footer_left{
+    padding: 50px;
+    padding-left: 150px;
+    font-size: 15px;
+    font-family: arial;
+    opacity: 0.6;
+    width: 50%;
+}
 
+.footer_right{
+    padding: 50px;
+    padding-left: 150px;
+    font-size: 15px;
+    font-family: arial;
+    opacity: 0.6;
+    width: 50%;
+    text-align: right;
+    margin-top: 15px;
+}
